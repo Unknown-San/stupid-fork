@@ -40,7 +40,6 @@ def get_waifu(update, context):
 
 
 updater = Updater(TOKEN, use_context=True)
-
 entregador = updater.dispatcher
 
 conv_handler = ConversationHandler(
